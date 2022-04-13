@@ -14,14 +14,20 @@ Example output for an `#define M = 10`:
 [
  0 (1)
  1 (1)
- 2 (-1)      // -1 means that this **prime** number was checked (and was used to calculate its multiples)
+ 2 (-1)
  3 (-1)
- 4 (0)      // 0 means that this **composite** number was found as a result of being a multiple of a prime number
+ 4 (0)
  5 (1)
  6 (0)
- 7 (1)      // 1 means that this **prime** number was not crossed off as a result of the checks made by multiples of checked primes (i.e. this number > floor(sqrt(M)) + 1
+ 7 (1)
  8 (0)
  9 (0)
  10 (0)
 ]
 ```
+---
+Interpretation:
+- `-1` means that this **prime** number was checked (and was used to calculate its multiples)
+- `0` means that this **composite** number was found as a result of being a multiple of a prime number
+- `1` means that this **prime** number was not crossed off as a result of the checks made by multiples of checked primes
+  - i.e. this `number` is prime **and** `number > floor(sqrt(M)) + 1`
