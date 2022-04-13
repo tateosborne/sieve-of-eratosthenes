@@ -1,0 +1,4 @@
+/Users/tateosborne/Documents/UVM/Junior/CS201 Operating Systems/Sieve-of-Eratosthenes/cmake-build-debug/CMakeFiles/rudimentary.dir
+/Users/tateosborne/Documents/UVM/Junior/CS201 Operating Systems/Sieve-of-Eratosthenes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tateosborne/Documents/UVM/Junior/CS201 Operating Systems/Sieve-of-Eratosthenes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tateosborne/Documents/UVM/Junior/CS201 Operating Systems/Sieve-of-Eratosthenes/cmake-build-debug/CMakeFiles/sieve_of_eratosthenes.dir
