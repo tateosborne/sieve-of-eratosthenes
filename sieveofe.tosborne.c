@@ -80,7 +80,7 @@ int main() {
         pthread_create(&tid[i], NULL, sieveOfEratosthenes, package);
     }
 
-    // wait for all threads to finish their jobs
+    // wait for all the threads to finish their jobs
     for (int i = 0; i < N_THREADS; ++i) {
         pthread_join(tid[i], NULL);
     }
